@@ -19,6 +19,9 @@ pip install faiss-cpu
 pip install faster-whisper
 
 
-run these commands in 2 different terminals and wait for models to get loaded..
+run these commands in 2 different terminals and wait for models to load...
 uvicorn api:app --reload
 streamlit run app.py
+
+
+# important! for better output and response change model from model="google/flan-t5-large" to any big model like mistral 7b
